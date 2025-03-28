@@ -9,8 +9,8 @@ PROG ?= edbg
 
 SYMBOL ?= main
 
-CMSIS_INCLUDE_PATH ?= lib/CMSIS/6.1.0/CMSIS/Core/Include
-SAMG_DFP_PATH ?= lib/SAMG_DFP/3.9.204/samg55
+CMSIS_INCLUDE_PATH ?= vendor/CMSIS/6.1.0/CMSIS/Core/Include
+SAMG_DFP_PATH ?= vendor/SAMG_DFP/3.9.204/samg55
 DFP_INCLUDE_PATH ?= $(SAMG_DFP_PATH)/include
 DFP_SOURCE_PATH ?= $(SAMG_DFP_PATH)/gcc
 # There is also an sram linker script
